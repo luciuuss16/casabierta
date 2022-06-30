@@ -28,3 +28,7 @@ window.addEventListener("resize", function () {
         nav.classList.remove('move_nav');
     }
 })
+
+let boton = document.getElementById("btn_menu")
+boton.onclick = () => {console.log("Click")}
+boton.onmousemove = () => {console.log("Move")}

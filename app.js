@@ -32,3 +32,14 @@ window.addEventListener("resize", function () {
 let boton = document.getElementById("btn_menu")
 boton.onclick = () => {console.log("Click")}
 boton.onmousemove = () => {console.log("Move")}
+
+let promo = document.getElementById("btn_promo");
+
+promo.addEventListener("click", () => {
+    Swal.fire({
+      title: "Genial!",
+      text: "Hoy tu promo está en menu de Dulces",
+      icon: "success",
+      confirmButtonText: "cual queres?",
+    });
+});

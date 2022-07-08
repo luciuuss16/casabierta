@@ -257,7 +257,19 @@ nav ul li a {
     color: #373737;
     text-align: justify;
 }
-
+.promo {
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background: #FEBA0B;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
 @keyframes move_vector {
     0% {
         transform: translateY(10px);
